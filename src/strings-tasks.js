@@ -574,7 +574,7 @@ function getCardId(value) {
       factor2 = 39;
       break;
     default:
-      console.log('error');
+      factor2 = 0;
   }
 
   switch (value[0]) {
